@@ -3,7 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    WifiResDevice
 
 TARGET_HAS_UDFPS := true
 TARGET_HAS_AMOLED := true
